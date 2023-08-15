@@ -1,4 +1,4 @@
-type CardProp ={
+type CardProp = {
   cityInfo: {
     city: string,
     country: string,
@@ -6,8 +6,8 @@ type CardProp ={
     visited?: boolean,
   }
 }
-function Card({cityInfo}: CardProp) {
-  const{ city, country, visited = false, imageUrl } = cityInfo
+function Card({ cityInfo }: CardProp) {
+  const { city, country, visited = false, imageUrl } = cityInfo
   return (
     <div className="card">
       <img src={imageUrl} alt={city} />

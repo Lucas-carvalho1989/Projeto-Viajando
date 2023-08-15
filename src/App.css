@@ -1,6 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Play&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Reset CSS */
 * {
-  margin: 0 auto;
-  max-width: 1280px;
-  padding: 2rem;
-  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
+
+main {
+  align-items: center;
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Kanit , sans-serif;
+  justify-content: space-around;
+  min-height: 100vh;
+  position: relative;
+}
+
+main:before {
+  background-color: black;
+  content: '';
+  height: 100%;
+  left: 0;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 500;
+}
+
+.card {
+  /* background-color: white; */
+  border-radius: 16px;
+  color: #499da8;
+  display: flex;
+  margin: 60px;
+  min-width: 500px;
+  padding: 13px;
+}
+
+.card img {
+  border-radius: 20px;
+  margin-right: 20px;
+  width: 130px;
+}
+
+.card h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.card h3 {
+  color: #918f8f;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.red {
+  color: #ba5f6f;
+}
+
