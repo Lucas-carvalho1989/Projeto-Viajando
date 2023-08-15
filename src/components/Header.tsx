@@ -1,5 +1,5 @@
 function Header() {
-  return ( 
+  return( 
     <h1>Tô Viajando?</h1>
   );
 }

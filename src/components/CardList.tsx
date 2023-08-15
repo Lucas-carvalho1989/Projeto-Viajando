@@ -1,4 +1,5 @@
 import Card from './Card';
+
 const infoRioDeJaneiro = {
   city: 'Rio de Janeiro',
   country: 'Brasil',
