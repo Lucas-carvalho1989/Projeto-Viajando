@@ -22,9 +22,9 @@ const infoAcapulco = {
 function CardList() {
   return (
     <div className="card-list">
-     <Card cityInfo={infoRioDeJaneiro} />
-     <Card cityInfo={infoCidadeDoCabo} />
-     <Card cityInfo={infoAcapulco} />
+      <Card cityInfo={ infoRioDeJaneiro } />
+      <Card cityInfo={ infoCidadeDoCabo } />
+      <Card cityInfo={ infoAcapulco } />
     </div>
   );
 }
